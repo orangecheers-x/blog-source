@@ -1,0 +1,3 @@
+[submodule "themes/volantis"]
+	path = themes/volantis
+	url = git@github.com:orangecheers-x/updated-volantis-theme.git
