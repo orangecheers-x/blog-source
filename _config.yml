@@ -4,12 +4,12 @@
 
 # Site
 title: Orange Cheers!
-subtitle: ''
-description: 'Orange Cheers 西安电子科技大学 西电 计算机 博客'
+subtitle: ""
+description: "Orange Cheers 西安电子科技大学 西电 计算机 博客"
 keywords:
 author: Orange Cheers
 language: zh-cn
-timezone: ''
+timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,31 +37,31 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight: 
+highlight:
   enable: false
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: true
 prismjs:
   enable: true
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -81,7 +81,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -102,7 +102,7 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'rsync'
+  type: "rsync"
   host: azure
   user: blog
   root: /var/www/html/
@@ -114,31 +114,31 @@ feed:
   hub:
   content:
   content_limit:
-  content_limit_delim: ' '
+  content_limit_delim: " "
 
 syzoj_renderer:
-  cache_file: cache.json       # File to store cache, related to Hexo's base directory.
+  cache_file: cache.json # File to store cache, related to Hexo's base directory.
   # highlighter: prism           # Code highlighter, 'prism' or 'hexo', the later uses highlight.js.
-  options:                     # syzoj-renderer's options, see https://github.com/syzoj/syzoj-renderer.
+  options: # syzoj-renderer's options, see https://github.com/syzoj/syzoj-renderer.
     highlight:
-      expandTab: null          # expandTab > 0 to enable expand tab, which replaces one tab to that namy spaces.
-      wrapper:                 # Strings that'll be added to highlighted code's beginning and ending.
+      expandTab: null # expandTab > 0 to enable expand tab, which replaces one tab to that namy spaces.
+      wrapper: # Strings that'll be added to highlighted code's beginning and ending.
         - <pre><code>
         - </code></pre>
-    markdownItMergeCells: true # Enable markdown-it-merge-cells or not, which'll merge adjacent cells with same
-                               # content in Markdown tables.
-    markdownIt:                # markdown-it's options, see https://github.com/markdown-it/markdown-it.
+    markdownItMergeCells:
+      true # Enable markdown-it-merge-cells or not, which'll merge adjacent cells with same
+      # content in Markdown tables.
+    markdownIt: # markdown-it's options, see https://github.com/markdown-it/markdown-it.
       html: true
       breaks: false
       linkify: true
       typographer: false
-    markdownItMath:            # markdown-it-math-loose's options, see https://github.com/Menci/markdown-it-math-loose.
+    markdownItMath: # markdown-it-math-loose's options, see https://github.com/Menci/markdown-it-math-loose.
       inlineOpen: $
       inlineClose: $
       blockOpen: $$
       blockClose: $$
-
 # Google Analytics
-google_analytics_key: G-CR6GKT47MD
+# google_analytics_key: G-CR6GKT47MD
 
-baidu_analytics_key: 30b58ee5f8d3b6fe2b6adb6114ac7748
+# baidu_analytics_key: 30b58ee5f8d3b6fe2b6adb6114ac7748
