@@ -129,27 +129,27 @@ cover:
   features:
     - name: 博客
       icon: #
-      img: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f4d2.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      img: https://s1.pstatp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f4d2.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
       url: /
     - name: 分类
       icon: #
-      img: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
+      img: https://s1.pstatp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
       url: /categories/
     - name: 标签
       icon: #
-      img: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f3f7.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
+      img: https://s1.pstatp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f3f7.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
       url: /tags/  
     - name: 归档
       icon: #
-      img: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f5c3.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
+      img: https://s1.pstatp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f5c3.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
       url: /archives/
     - name: 友链
       icon: #
-      img: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f497.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      img: https://s1.pstatp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f497.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
       url: /friends/
     - name: 关于
       icon: #
-      img: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
+      img: https://s1.pstatp.com/cdn/expire-1-M/twemoji/13.1.0/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
       url: /about/
 ############################### Cover ############################### > end
 
@@ -523,20 +523,20 @@ plugins:
   globalJquery: false # 全局引入 jquery
   jquery: volantis-static/libs/jquery/dist/jquery.min.js # https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
   # fontawesome Pro 版本：https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
-  fontawesome: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css # https://unpkg.com/@fortawesome/fontawesome-free@6.1/css/all.min.css
+  fontawesome: https://s1.pstatp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css # https://unpkg.com/@fortawesome/fontawesome-free@6.1/css/all.min.css
   # katex@0.15.2
   katex:
-    js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.js # https://unpkg.com/katex@0.15.2/dist/katex.min.js
-    css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.css # https://unpkg.com/katex@0.15.2/dist/katex.min.css
-    render: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/contrib/auto-render.min.js # https://unpkg.com/katex@0.15.2/dist/contrib/auto-render.min.js
+    js: https://s1.pstatp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.js # https://unpkg.com/katex@0.15.2/dist/katex.min.js
+    css: https://s1.pstatp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.css # https://unpkg.com/katex@0.15.2/dist/katex.min.css
+    render: https://s1.pstatp.com/cdn/expire-1-M/KaTeX/0.15.2/contrib/auto-render.min.js # https://unpkg.com/katex@0.15.2/dist/contrib/auto-render.min.js
   # mathjax@3.2.0
-  mathjax: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/mathjax/3.2.0/es5/tex-mml-chtml.min.js # https://unpkg.com/mathjax@3.2.0/es5/tex-mml-chtml.js
+  mathjax: https://s1.pstatp.com/cdn/expire-1-M/mathjax/3.2.0/es5/tex-mml-chtml.min.js # https://unpkg.com/mathjax@3.2.0/es5/tex-mml-chtml.js
   # github-markdown-css@5.1.0
-  markdown: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/github-markdown-css/5.1.0/github-markdown.min.css # https://unpkg.com/github-markdown-css@5.1.0/github-markdown.min.css
+  markdown: https://s1.pstatp.com/cdn/expire-1-M/github-markdown-css/5.1.0/github-markdown.min.css # https://unpkg.com/github-markdown-css@5.1.0/github-markdown.min.css
   # marked@4.0.10
-  marked: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/marked/4.0.2/marked.min.js # https://unpkg.com/marked@4.0.10/marked.min.js
+  marked: https://s1.pstatp.com/cdn/expire-1-M/marked/4.0.2/marked.min.js # https://unpkg.com/marked@4.0.10/marked.min.js
   # hls.js@1.1.3
-  hlsjs: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/hls.js/1.1.3/hls.min.js # https://unpkg.com/hls.js@1.1.3
+  hlsjs: https://s1.pstatp.com/cdn/expire-1-M/hls.js/1.1.3/hls.min.js # https://unpkg.com/hls.js@1.1.3
   # @fancyapps/ui@4.0.12
   fancybox:
     css: https://github.elemecdn.com/@fancyapps/ui@4.0.12/dist/fancybox.css # https://unpkg.com/@fancyapps/ui@4.0.12/dist/fancybox.css
@@ -593,7 +593,7 @@ plugins:
       - https://github.elemecdn.com/prismjs/plugins/autoloader/prism-autoloader.min.js
       - https://github.elemecdn.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
     css:
-      - https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/prism-themes/1.9.0/prism-atom-dark.css
+      - https://s1.pstatp.com/cdn/expire-1-M/prism-themes/1.9.0/prism-atom-dark.css
       - https://github.elemecdn.com/prismjs/plugins/line-numbers/prism-line-numbers.css
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
@@ -613,14 +613,14 @@ plugins:
   # Button Ripple Effect
   nodewaves:
     enable: true
-    css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-waves/0.7.6/waves.min.css # https://unpkg.com/node-waves@0.7.6/dist/waves.min.css
-    js: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-waves/0.7.6/waves.min.js # https://unpkg.com/node-waves@0.7.6/dist/waves.min.js
+    css: https://s1.pstatp.com/cdn/expire-1-M/node-waves/0.7.6/waves.min.css # https://unpkg.com/node-waves@0.7.6/dist/waves.min.css
+    js: https://s1.pstatp.com/cdn/expire-1-M/node-waves/0.7.6/waves.min.js # https://unpkg.com/node-waves@0.7.6/dist/waves.min.js
 
   # fontawesome V6:  https://fontawesome.com/docs/web/style/animate
   # fontawesome animation for fontawesome V5
   fontawesome_animation:
     enable: true
-    css: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome-animation/0.3.0/font-awesome-animation.min.css # https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css
+    css: https://s1.pstatp.com/cdn/expire-1-M/font-awesome-animation/0.3.0/font-awesome-animation.min.css # https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css
 
   # Typing Effects
   comment_typing:
