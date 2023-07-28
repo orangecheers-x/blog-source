@@ -493,7 +493,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [analytics, copyright, slogan]
+  layout: [analytics, copyright, slogan, beian]
   social:
     - icon: #fa-solid fa-rss
       url:
@@ -514,6 +514,7 @@ site_footer:
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
   slogan: 'ORANGE CHEERS!'
+  beian: <a href="http://beian.miit.gov.cn/">皖ICP备2023012140号</a>
 ############################### Site Footer ############################### > end
 
 ############################### Plugins ############################### > start
