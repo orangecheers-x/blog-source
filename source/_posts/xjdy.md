@@ -94,9 +94,9 @@ xsh的计划是让所有人手机关掉mac地址伪装, 记录每个人手机的
 
 之后就用着那个单线程的c++服务端一段时间, 播放端这边因为感觉没什么性能瓶颈, 就一直用的python实现. 我也用react重写了个更好看点的前端.
 
-![Untitled](/img/xjdy/4.png)
+![Untitled](/img/xjdy/4.jpg)
 
-![Untitled](/img/xjdy/5.png)
+![Untitled](/img/xjdy/5.jpg)
 
 ## 音频服务器
 
