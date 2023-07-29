@@ -4,7 +4,7 @@ date: 2023-04-05 00:39:31
 tags:
 ---
 
-![Untitled](/img/understand-raft/raft.png)
+![Untitled](/img/understand-raft/raft.png.webp)
 
 Understand the understandable consensus algorithm.
 
@@ -67,7 +67,7 @@ voter只会投票给log至少跟自己up-to-date的candidate, 这个up-to-date�
 
 ## 关于Figure 8
 
-![Untitled](/img/understand-raft/figure8.png)
+![Untitled](/img/understand-raft/figure8.png.webp)
 
 这个图讲的是我是一个Leader, 即使一个log在我这看来确实有绝大多数server都有这个log, 但是这个logA是之前term产生的, 我还是不敢贸然commit这个logA. 因为我如果是刚上任, 根基不稳, 有些server还不知道改朝换代, 他们的term还没更新到我的term, 如果我和我让的几个人commit了, 然后我就驾崩了, 那些不知道改朝换代的人可能会成为跟我一样term或者甚至比我更小term的的candidate, 如果他们的term比现在这个logA的term大, 那那些刚刚commit这个logA的server会投票给他的, 他一上任如果没有这个logA就会把这个logA覆写掉的.
 

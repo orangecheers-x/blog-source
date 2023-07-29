@@ -6,7 +6,7 @@ categories: 游记
 
 
 
-![IMG_2432](/img/momopark-saga-ikea.assets/IMG_2432.jpg)
+![IMG_2432](/img/momopark-saga-ikea.assets/IMG_2432.jpg.webp)
 
 
 
@@ -16,7 +16,7 @@ categories: 游记
 
 本来上篇文章最后写了一点这些事情的，但是
 
-![t](/img/momopark-saga-ikea.assets/t.png)
+![t](/img/momopark-saga-ikea.assets/t.png.webp)
 
 今天送她的时候跟她梳理了一路，把那天的行程完整的理一遍了。
 
@@ -26,7 +26,7 @@ categories: 游记
 
 前一天，本来是想去看电影的，找到了想看的电影之后去订票。发现都是空的，以为我们要包场，但是怎么都订不下来，就放弃了。
 
-![44B5A49DF615B15136615DC71C59FDA5](/img/momopark-saga-ikea.assets/44B5A49DF615B15136615DC71C59FDA5.jpg)
+![44B5A49DF615B15136615DC71C59FDA5](/img/momopark-saga-ikea.assets/44B5A49DF615B15136615DC71C59FDA5.jpg.webp)
 
 太晚了，当时只想到一个momopark可以去，因为有好喝的草莓长岛冰茶，然后去哪还不知道就睡了。
 
@@ -60,23 +60,23 @@ categories: 游记
 
 连续两次来momopark都吃的烤肉，而且这里除了烤肉也没太多好吃的东西，只能随便吃吃。然后99提议去问问杨神momopark有什么好吃的，当时我也没太纠结为什么要找杨神，反正就找了，杨神真万能。
 
-![IMG_2444](/img/momopark-saga-ikea.assets/ys.jpg)
+![IMG_2444](/img/momopark-saga-ikea.assets/ys.jpg.webp)
 
 然后去了乐高店，进去看到了一个打字机. 店员过来给我们介绍这个打字机是新品, 跟真的打字机一样的效果. 我小心嘀咕了一句"这玩意可以打字嘛", 然后99直接去问店员了. 店员看着我们, 沉默了几秒, 说这个是不能真的打出字的, 因为你想打字是要墨的, 这里面肯定没有墨. 我感觉他沉默的时候可能在想他面前这两个人是什么东西.
 
-![IMG_2409](/img/momopark-saga-ikea.assets/IMG_2409.jpg)
+![IMG_2409](/img/momopark-saga-ikea.assets/IMG_2409.jpg.webp)
 
 (左下角打字机)
 
 去了西西弗书店, 看了好长时间的书. 还找到一些很有格局的东西.
 
-![IMG_2413](/img/momopark-saga-ikea.assets/IMG_2413-1626193074306.jpg)
+![IMG_2413](/img/momopark-saga-ikea.assets/IMG_2413-1626193074306.jpg.webp)
 
 
 
 99看中了一个名著徽章, 但是问了店员才知道卖完了. 最后她去网上买了一个, 她刚走今天东西就到学校了, 我帮她拿了.
 
-![img](/img/momopark-saga-ikea.assets/E6729ABD1BF350C240B73209FA8DC631.jpg)
+![img](/img/momopark-saga-ikea.assets/E6729ABD1BF350C240B73209FA8DC631.jpg.webp)
 
 还不是很饿，就先上二楼逛了。刚上二楼有个那种传声筒，就是很多颜色的弯曲的管子，然后一个人站在一个管子的一边，另一个人站在另一边，就可以互相说话了。然后我们俩去试了一下，她先去听我去另一边拍了一下，然后我也想试试，我们俩就换了个位置，然后她拍我听。后来才想到为什么一定要换位置呢。最近的智商越来越不够用了。
 
@@ -86,7 +86,7 @@ categories: 游记
 
 不过momopark有个好地方就是他里面挺多艺术品的. 这个叫婚变的作品, 里面有好多烧了的写满了字的纸. 我们研究了半天, 还是没看清纸上写的什么.
 
-![IMG_2410](/img/momopark-saga-ikea.assets/IMG_2410.jpg)
+![IMG_2410](/img/momopark-saga-ikea.assets/IMG_2410.jpg.webp)
 
 上楼进四层, 里面都是吃的, 而且基本都是烤肉和火锅之类的. 逛了一圈也没找到啥想吃的, 倒是99遇到了两个图灵同学, 我也不认识, 也不敢说话.
 
@@ -110,7 +110,7 @@ B2层一出地铁站有个奇怪的店, 99说刚刚在momopark是不是也有这
 
 
 
-![img](/img/momopark-saga-ikea.assets/BC66DSUOKE7QJW}V%`8QXN8.png)
+![img](/img/momopark-saga-ikea.assets/BC66DSUOKE7QJW}V%`8QXN8.png.webp)
 
 旁边是一家Zippo, "你要买打火机嘛", "吹灭了可以召唤鬼怪".
 
@@ -126,9 +126,9 @@ B1层中间有个贼大的钻石💎形的建筑, 是周大福, 还挺好看的.
 
 不过妙控键盘真的挺好用的, 就是有点贵.
 
-![IMG_2417](/img/momopark-saga-ikea.assets/IMG_2417-1626192927589.jpg)
+![IMG_2417](/img/momopark-saga-ikea.assets/IMG_2417-1626192927589.jpg.webp)
 
-![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2418.jpg)
+![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2418.jpg.webp)
 
 然后去逛了京东之家, 外星人, 微软. 我们俩还都拿着上次去西交发的微软手提袋进去的, 不过没啥用, surface还是用着挺难受.
 
@@ -166,7 +166,7 @@ B1层中间有个贼大的钻石💎形的建筑, 是周大福, 还挺好看的.
 
 找了个2499的很orangecheers的沙发(橙色的)坐着, 然后我们把刚买的手机膜给她手机贴上了, 在宜家里贴膜可能也只有我们能干出来.
 
-![IMG_2423](/img/momopark-saga-ikea.assets/IMG_2423.jpg)
+![IMG_2423](/img/momopark-saga-ikea.assets/IMG_2423.jpg.webp)
 
 在沙发上看到一个小女孩, 她爸拿着一条玩具狗, 说"我把这个买给你". 99跟我说"我要不要买个那个给你", 然后她一看售价99大洋, 99瞬间没有了嚣张气焰.
 
@@ -200,11 +200,11 @@ B1层中间有个贼大的钻石💎形的建筑, 是周大福, 还挺好看的.
 
 有个可以让你试笔的地方, 99在上面写了代码, 也就是上个文章的题图.
 
-![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2425.jpg)
+![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2425.jpg.webp)
 
 看到了经典宜家大鲨鱼, 还有好多熊, 熊猫和蟒蛇. 99抱了半天才走.
 
-![IMG_2424](/img/momopark-saga-ikea.assets/IMG_2424.jpg)
+![IMG_2424](/img/momopark-saga-ikea.assets/IMG_2424.jpg.webp)
 
 那个狗熊真的不错, 抱着的时候头会搭在你的肩上, 他的头还好重, 肚子还好大, 反正就是舒服, 99说"反馈感极强".
 
@@ -222,11 +222,11 @@ B1层中间有个贼大的钻石💎形的建筑, 是周大福, 还挺好看的.
 
 99虽然不吃牛肉, 但是她想切牛排, 她就说我牛排切的不好, 拿着我的刀和叉切了去切了. 我说我也想切, 就让她给我留了一半.
 
-![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2428.jpg)
+![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2428.jpg.webp)
 
 吃完送完餐盘之后看到了好看的晚霞, 金光闪闪的, 就拍了下来, 就是文章首图.
 
-![IMG_2432](/img/momopark-saga-ikea.assets/IMG_2432.jpg)
+![IMG_2432](/img/momopark-saga-ikea.assets/IMG_2432.jpg.webp)
 
 99说, "没有我你肯定看不到这么好看的晚霞".
 
@@ -244,13 +244,13 @@ B1层中间有个贼大的钻石💎形的建筑, 是周大福, 还挺好看的.
 
 到皂河地铁站, 坐地铁回去啦. 路上看到新年快乐, 跟我在师大附中看到"你好十月"一样的穿越感.
 
-![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2434.jpg)
+![IMG_2418](/img/momopark-saga-ikea.assets/IMG_2434.jpg.webp)
 
 本来准备1号线到北大街转2号线, 再到小寨转3号线, 再到科技路转6号线的. 在一号线上我灵机一动多坐了一段直接到通化门转3号线, 这样就少换乘了一次, 也不知道哪个更快.但是换乘确实少了一次, 99都在地铁上睡着啦.
 
 到了国际医学中心, 我说我渴, 我们俩就去自动售货机上买了两瓶水溶C100, 都给酸死啦.
 
-![IMG_2481](/img/momopark-saga-ikea.assets/IMG_2481.jpg)
+![IMG_2481](/img/momopark-saga-ikea.assets/IMG_2481.jpg.webp)
 
 从国际医学到学校走回去的, 路上聊了好多, 如果不是她我这学期连一次都不会出来玩的吧, 好幸运啊.
 

@@ -29,7 +29,7 @@ http://www.mingw.org/
 
 为了进一步了解CMake,可以利用CMake在windows下的gui试验一下编译.
 
-![1](/img/WCMC环境配置/1.png)
+![1](/img/WCMC环境配置/1.png.webp)
 
 编写a.cpp和CMakeLists.txt文件,其中CMakeLists.txt文件内容为
 
@@ -48,17 +48,17 @@ ADD_EXECUTABLE(ggzka ${SRC_LIST})
 
 打开CMake-gui,选择源码文件夹和二进制文件输出文件夹.
 
-![2](/img/WCMC环境配置/2.png)
+![2](/img/WCMC环境配置/2.png.webp)
 
 点Generate.
 
-![3](/img/WCMC环境配置/3.png)
+![3](/img/WCMC环境配置/3.png.webp)
 
 因为使用的是MinGW,所以选择MinGW Makefiles,也就是mingw32-make可以处理的makefiles文件.
 
 要使用之前自己安装的MinGW,所以选择第二项,之后自己选择编译器.
 
-![4](/img/WCMC环境配置/4.png)
+![4](/img/WCMC环境配置/4.png.webp)
 
 选择好编译器后,正常的话已经可以在bin文件夹下生成Makefiles文件了,然后在bin文件夹下执行
 
@@ -66,7 +66,7 @@ ADD_EXECUTABLE(ggzka ${SRC_LIST})
 mingw32-make
 ```
 
-![5](/img/WCMC环境配置/5.png)
+![5](/img/WCMC环境配置/5.png.webp)
 
 就可以看到bin文件夹下已经编译出hello.exe文件了.
 
@@ -74,7 +74,7 @@ mingw32-make
 
 懂得了基本概念之后,配置CLion也就很简单了.
 
-![6](/img/WCMC环境配置/6.png)
+![6](/img/WCMC环境配置/6.png.webp)
 
 Environment选择MinGW所在的文件夹.Make选择mingw32-make,C编译器选择gcc,c++编译器g++即可.
 

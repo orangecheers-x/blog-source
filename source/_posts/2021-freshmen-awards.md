@@ -23,17 +23,17 @@ MSC这边有三种奖品:
 
 T恤:
 
-![img](/img/2021-freshmen-awards.assets/t.jpg)
+![img](/img/2021-freshmen-awards.assets/t.jpg.webp)
 
 马克杯:
 
-![mkbei](/img/2021-freshmen-awards.assets/mkbei.jpg)
+![mkbei](/img/2021-freshmen-awards.assets/mkbei.jpg.webp)
 
 帆布手提袋:
 
-![fb1](/img/2021-freshmen-awards.assets/fb1.jpg)
+![fb1](/img/2021-freshmen-awards.assets/fb1.jpg.webp)
 
-![fb2](/img/2021-freshmen-awards.assets/fb2.jpg)
+![fb2](/img/2021-freshmen-awards.assets/fb2.jpg.webp)
 
 特等奖同学私聊我T恤尺寸(M/L/XL/2XL/3XL)和剩下两个选什么.
 
@@ -53,7 +53,7 @@ https://acm.xidian.edu.cn/freshmen/2021/ranklist/
 
 
 
-![image-20211214095751088](/img/2021-freshmen-awards.assets/image-20211214095751088.png)
+![image-20211214095751088](/img/2021-freshmen-awards.assets/image-20211214095751088.png.webp)
 
 
 

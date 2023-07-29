@@ -34,7 +34,7 @@ $$ ln \frac{y}{1-y} = w^T x $$
 
 对线性拟合的系数矩阵进行极大似然估计, 写出似然函数$L(w)$, 然后求个导就能用梯度下降了. 推导过程就不写Latex了, 太麻烦了, 放一个我之前自己推导的草稿吧.
 
-![img](/img/logistic-basis/image.png)
+![img](/img/logistic-basis/image.png.webp)
 
 
 
