@@ -68,15 +68,16 @@ content_visibility: false
 # 全局页面字符串替换  A => B (可用于临时修改错字等)
 replace:
   # - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
-  # - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
+  # # - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
   - https://cdn.jsdelivr.net/ => https://github.elemecdn.com/
   - https://unpkg.com/ => https://github.elemecdn.com/
   - app-router.leancloud.cn => https://honoka.tech/counter
+  - fa-solid => fa-duotone
 
 
 # dns-prefetch preconnect x-dns-prefetch-control
-dns_prefetch:
-  - https://unpkg.com
+# dns_prefetch:
+#   - https://unpkg.com
 
 
 # 平滑滚动效果
@@ -91,22 +92,22 @@ navbar:
     title: Orange Cheers
   menu:
     - name: 博客
-      icon: fa-duotone fa-rss
+      icon: fa-duotone fa-rss PETERRIVE
       url: /
     - name: 分类
-      icon: fa-duotone fa-folder-open
+      icon: fa-duotone fa-folder-open AMETHYST
       url: categories/
     - name: 标签
-      icon: fa-duotone fa-tags
+      icon: fa-duotone fa-tags SUNFLOWER
       url: tags/
     - name: 归档
-      icon: fa-duotone fa-archive
+      icon: fa-duotone fa-archive CARROT
       url: archives/
     - name: 友链
-      icon: fa-duotone fa-link
+      icon: fa-duotone fa-link ORANGE
       url: friends/
     - name: 关于
-      icon: fa-duotone fa-info-circle
+      icon: fa-duotone fa-info-circle WISTERIA
       url: about/
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
@@ -364,11 +365,11 @@ sidebar:
       class: text
       display: [desktop, mobile]
       header:
-        icon: fa-duotone fa-bullhorn
+        icon: fa-duotone fa-bullhorn orange
         title: 公告
       content:
-        - '本站原域名orangecheers.top将于半年内弃用, 之后将只保留honoka.tech域名'
-        - '大家别忘更新一下友链!'
+        - '<p>本站原域名orangecheers.top将于半年内弃用, 之后将只保留honoka.tech域名.</p>'
+        - '<p>大家别忘更新一下友链!</p>'
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
@@ -409,7 +410,7 @@ sidebar:
       class: category
       display: [desktop] # [desktop, mobile]
       header:
-        icon: fa-duotone fa-folder-open
+        icon: fa-duotone fa-folder-open brown
         title: 文章分类
         url: /categories/
     # ---------------------------------------
@@ -441,7 +442,7 @@ sidebar:
       class: webinfo
       display: [desktop]
       header:
-        icon: fa-duotone fa-award
+        icon: fa-duotone fa-award TURQUOISE
         title: 站点信息
       type:
         article:
