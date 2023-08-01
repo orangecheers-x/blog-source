@@ -91,22 +91,22 @@ navbar:
     title: Orange Cheers
   menu:
     - name: 博客
-      icon: fa-solid fa-rss
+      icon: fa-duotone fa-rss
       url: /
     - name: 分类
-      icon: fa-solid fa-folder-open
+      icon: fa-duotone fa-folder-open
       url: categories/
     - name: 标签
-      icon: fa-solid fa-tags
+      icon: fa-duotone fa-tags
       url: tags/
     - name: 归档
-      icon: fa-solid fa-archive
+      icon: fa-duotone fa-archive
       url: archives/
     - name: 友链
-      icon: fa-solid fa-link
+      icon: fa-duotone fa-link
       url: friends/
     - name: 关于
-      icon: fa-solid fa-info-circle
+      icon: fa-duotone fa-info-circle
       url: about/
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
@@ -182,7 +182,7 @@ article:
   body:
     # 文章顶部信息
     # 从 meta_library 中取
-    top_meta: [category, date, counter] #启用评论数量需在此添加
+    top_meta: [category, date] #启用评论数量需在此添加
     # 文章底部信息
     # 从 meta_library 中取
     bottom_meta: [copyright, updated, tags]
@@ -193,7 +193,7 @@ article:
       # 参考资料、相关资料等 (for layout: post/docs)
       references:
         title: 参考资料
-        icon: fa-solid fa-quote-left
+        icon: fa-duotone fa-quote-left
         # 在 front-matter 中:
         #   references:
         #     - title: 某篇文章
@@ -205,7 +205,7 @@ article:
       related_posts:
         enable: false
         title: 相关文章
-        icon: fa-solid fa-bookmark
+        icon: fa-duotone fa-bookmark
         max_count: 5
         # 设为空则不使用文章头图
         placeholder_img: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
@@ -268,36 +268,36 @@ article:
         url: /
       # 文章创建日期
       date:
-        icon: fa-solid fa-calendar-alt
+        icon: fa-duotone fa-calendar-alt
         title: '发布于：'
         format: 'll' # 日期格式 http://momentjs.com/docs/
       # 文章更新日期
       updated:
-        icon: fa-solid fa-edit
+        icon: fa-duotone fa-edit
         title: '更新于：'
         format: 'll' # 日期格式 http://momentjs.com/docs/
       # 文章分类
       category:
-        icon: fa-solid fa-folder-open
+        icon: fa-duotone fa-folder-open
       # 文章浏览计数
       counter:
-        icon: fa-solid fa-eye
+        icon: fa-duotone fa-eye
         unit: '次浏览'
       # waline 文章评论数量
       walinecount:
-        icon: fa-solid fa-comment-dots
+        icon: fa-duotone fa-comment-dots
         desc: '条评论' # 条评论
       # artalk 文章评论数量
       artalkcount:
-        icon: fa-solid fa-comment-dots
+        icon: fa-duotone fa-comment-dots
         desc: '条评论' # 条评论
       # 文章字数和阅读时长
       wordcount:
-        icon_wordcount: fa-solid fa-keyboard
-        icon_duration: fa-solid fa-hourglass-half
+        icon_wordcount: fa-duotone fa-keyboard
+        icon_duration: fa-duotone fa-hourglass-half
       # 文章标签
       tags:
-        icon: fa-solid fa-hashtag
+        icon: fa-duotone fa-hashtag
       # 分享
       share:
         - id: qq
@@ -316,7 +316,7 @@ article:
 
 ############################### Comments ############################### > start
 comments:
-  title: <i class='fa-solid fa-comments'></i> 评论
+  title: <i class='fa-duotone fa-comments'></i> 评论
   subtitle:
   service: waline
   # Waline
@@ -352,13 +352,23 @@ comments:
 sidebar:
   position: right # left right
   # 主页、分类、归档等独立页面
-  for_page: [blogger, category, webinfo]
+  for_page: [announcement, blogger, category, webinfo]
   # layout: docs/post 这类文章页面
-  for_post: [toc]
+  for_post: [announcement, toc]
   # 侧边栏组件库
   widget_library:
     # ---------------------------------------
     # blogger info widget
+
+    announcement:
+      class: text
+      display: [desktop, mobile]
+      header:
+        icon: fa-duotone fa-bullhorn
+        title: 公告
+      content:
+        - '本站原域名orangecheers.top将于半年内弃用, 之后将只保留honoka.tech域名'
+        - '大家别忘更新一下友链!'
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
@@ -369,9 +379,9 @@ sidebar:
       subtitle: false
       jinrishici: false
       social:
-        - icon: fa-solid fa-rss
+        - icon: fa-duotone fa-rss
           url: /atom.xml
-        - icon: fa-solid fa-envelope
+        - icon: fa-duotone fa-envelope
           url: mailto:orange_cheers@outlook.com
         - icon: fab fa-github
           url: https://github.com/orangecheers-x
@@ -382,7 +392,7 @@ sidebar:
       display: [desktop, mobile] # [desktop, mobile]
       sticky: true
       header:
-        icon: fa-solid fa-list
+        icon: fa-duotone fa-list
         title: 本文目录
       list_number: false
       min_depth: 2
@@ -399,7 +409,7 @@ sidebar:
       class: category
       display: [desktop] # [desktop, mobile]
       header:
-        icon: fa-solid fa-folder-open
+        icon: fa-duotone fa-folder-open
         title: 文章分类
         url: /categories/
     # ---------------------------------------
@@ -408,7 +418,7 @@ sidebar:
       class: tagcloud
       display: [desktop, mobile] # [desktop, mobile]
       header:
-        icon: fa-solid fa-tags
+        icon: fa-duotone fa-tags
         title: 热门标签
         url: /blog/tags/
       min_font: 14
@@ -431,7 +441,7 @@ sidebar:
       class: webinfo
       display: [desktop]
       header:
-        icon: fa-solid fa-award
+        icon: fa-duotone fa-award
         title: 站点信息
       type:
         article:
@@ -461,13 +471,15 @@ sidebar:
           friendlyShow: true    # 更友好的时间显示
           text: '最后活动时间：'
           unit: '日'
+        custom_counter:
+          enable: true
     # ---------------------------------------
     # lastupdate widget
     lastupdate:
       class: lastupdate
       display: [desktop, mobile]
       header:
-        icon: fa-solid fa-clock WISTERIA
+        icon: fa-duotone fa-clock WISTERIA
         title: 最近更新
 ############################### Sidebar ############################### > end
 
@@ -495,7 +507,7 @@ site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [analytics, copyright, slogan, beian]
   social:
-    - icon: #fa-solid fa-rss
+    - icon: #fa-duotone fa-rss
       url:
     # or
     - img:
@@ -507,8 +519,7 @@ site_footer:
 
   # analytics using leancloud
   analytics:
-    <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
-    <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
+    本站总访问量为 <span class="waline-pageview-count"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次
   # site copyright
   copyright: 'Copyright © 2017-2023 Orange Cheers, All Rights Reserved.'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
@@ -524,7 +535,8 @@ plugins:
   globalJquery: false # 全局引入 jquery
   jquery: volantis-static/libs/jquery/dist/jquery.min.js # https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
   # fontawesome Pro 版本：https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
-  fontawesome: https://s1.pstatp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css # https://unpkg.com/@fortawesome/fontawesome-free@6.1/css/all.min.css
+  # fontawesome: https://s1.pstatp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css # https://unpkg.com/@fortawesome/fontawesome-free@6.1/css/all.min.css
+  fontawesome: /fa/all.min.css
   # katex@0.15.2
   katex:
     js: https://s1.pstatp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.js # https://unpkg.com/katex@0.15.2/dist/katex.min.js
@@ -697,7 +709,7 @@ plugins:
   # 暗黑模式 darkmode
   # 开关按钮：在 navbar.menu 中添加：
   # - name: 暗黑模式 # 可自定义
-  #   icon: fa-solid fa-moon # 可自定义
+  #   icon: fa-duotone fa-moon # 可自定义
   #   toggle: darkmode
   darkmode:
     enable: #true
@@ -764,8 +776,8 @@ plugins:
     css: volantis-static/libs/izitoast/dist/css/iziToast.min.css
     js: volantis-static/libs/izitoast/dist/js/iziToast.min.js
     icon:     # 默认图标，支持对图标添加颜色，可选值：see：/source/css/_style/_plugins/fontcolor.styl
-      default: fa-solid fa-info-circle light-blue
-      quection: fa-solid fa-question-circle light-blue
+      default: fa-duotone fa-info-circle light-blue
+      quection: fa-duotone fa-question-circle light-blue
     time:     # 默认持续时间
       default: 5000
       quection: 20000
@@ -783,8 +795,8 @@ plugins:
       icon: 'far fa-copyright light-blue'
     aplayer:                              # 是否开启音乐通知；播放、暂停、失败 时的图标
       enable: true
-      play: fa-solid fa-play
-      pause: fa-solid fa-pause
+      play: fa-duotone fa-play
+      pause: fa-duotone fa-pause
     rightmenu:
       enable: true                        # 是否开启右键模块的消息通知
       notice: true                        # 唤醒原右键菜单的通知
@@ -844,8 +856,8 @@ rightmenus:
   ###########################
   # 基础项设置
   options:
-    # 图标前缀 fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
-    iconPrefix: fa-solid
+    # 图标前缀 fa-duotone, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands
+    iconPrefix: fa-duotone
     # 例外，在 articlePage 组显示时（文章页）时依旧显示含 link 属性的菜单项
     articleShowLink: true
     # 当设定全局音乐播放器时，是否一直显示音乐控制菜单。false：仅当音乐播放时启用
@@ -855,56 +867,56 @@ rightmenus:
     # 导航组件
     # 横向排列，共用一行，仅显示图标 (原则上支持的数量不限)
     navigation:
-      - {id: 'left', name: '转到上一页', icon: 'fa-solid fa-arrow-left', event: 'history.back()', group: 'navigation'}
-      - {id: 'right', name: '转到下一页', icon: 'fa-solid fa-arrow-right', event: 'history.forward()', group: 'navigation'}
-      - {id: 'redo', name: '刷新当前页面', icon: 'fa-solid fa-redo', event: 'window.location.reload()', group: 'navigation'}
-      - {id: 'up', name: '回到顶部', icon: 'fa-solid fa-arrow-up', event: 'VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)', group: 'navigation'}
-      #- {id: 'home', name: '回到首页', icon: 'fa-solid fa-home', link: '/', group: 'navigation'}
+      - {id: 'left', name: '转到上一页', icon: 'fa-duotone fa-arrow-left', event: 'history.back()', group: 'navigation'}
+      - {id: 'right', name: '转到下一页', icon: 'fa-duotone fa-arrow-right', event: 'history.forward()', group: 'navigation'}
+      - {id: 'redo', name: '刷新当前页面', icon: 'fa-duotone fa-redo', event: 'window.location.reload()', group: 'navigation'}
+      - {id: 'up', name: '回到顶部', icon: 'fa-duotone fa-arrow-up', event: 'VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)', group: 'navigation'}
+      #- {id: 'home', name: '回到首页', icon: 'fa-duotone fa-home', link: '/', group: 'navigation'}
     # 文本输入框相关组件
     # 生效于 input/textarea，粘贴、剪切、全选
     inputBox:
-      - {id: 'copyPaste', name: '粘贴文本', icon: 'fa-solid fa-paste', event: 'copyPaste', group: 'inputBox'}
-      - {id: 'copyAll', name: '全选文本', icon: 'fa-solid fa-object-ungroup', event: 'copyAll', group: 'inputBox'}
-      - {id: 'copyCut', name: '剪切文本', icon: 'fa-solid fa-cut', event: 'copyCut', group: 'inputBox'}
+      - {id: 'copyPaste', name: '粘贴文本', icon: 'fa-duotone fa-paste', event: 'copyPaste', group: 'inputBox'}
+      - {id: 'copyAll', name: '全选文本', icon: 'fa-duotone fa-object-ungroup', event: 'copyAll', group: 'inputBox'}
+      - {id: 'copyCut', name: '剪切文本', icon: 'fa-duotone fa-cut', event: 'copyCut', group: 'inputBox'}
     # 文本选中类组件
     # 生效于右键选中文本，__text__ 为选中的文本。
     seletctText:
-      - {id: 'copyText', name: '复制文本', icon: 'fa-solid fa-copy', event: 'copyText', group: 'seletctText'}
-      - {id: 'searchWord', name: '站内搜索', icon: 'fa-solid fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
-      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-solid fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
-      #- {id: 'googleSearch', name: '谷歌搜索', icon: 'fa-solid fa-search', event: 'window.open(`https://www.google.com/search?q=${__text__}`)', group: 'seletctText'}
+      - {id: 'copyText', name: '复制文本', icon: 'fa-duotone fa-copy', event: 'copyText', group: 'seletctText'}
+      - {id: 'searchWord', name: '站内搜索', icon: 'fa-duotone fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
+      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-duotone fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
+      #- {id: 'googleSearch', name: '谷歌搜索', icon: 'fa-duotone fa-search', event: 'window.open(`https://www.google.com/search?q=${__text__}`)', group: 'seletctText'}
     # 链接判断组件
     # 生效于链接处的右键行为，__link__ 为链接地址
     elementCheck:
-      - {id: 'openTab', name: '新标签页打开', icon: 'fa-solid fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
-      - {id: 'copyLink', name: '复制链接地址', icon: 'fa-solid fa-link', event: 'copyLink', group: 'elementCheck'}
+      - {id: 'openTab', name: '新标签页打开', icon: 'fa-duotone fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
+      - {id: 'copyLink', name: '复制链接地址', icon: 'fa-duotone fa-link', event: 'copyLink', group: 'elementCheck'}
     # 图片判断类组件
     # 生效于图片类的右键行为，__link__ 为链接地址
     elementImage:
-      - {id: 'copyImg', name: '复制图片', icon: 'fa-solid fa-image', event: 'copyImg', group: 'elementImage'}
-      - {id: 'googleImg', name: '谷歌识图', icon: 'fa-solid fa-images', event: 'window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)', group: 'elementImage'}
+      - {id: 'copyImg', name: '复制图片', icon: 'fa-duotone fa-image', event: 'copyImg', group: 'elementImage'}
+      - {id: 'googleImg', name: '谷歌识图', icon: 'fa-duotone fa-images', event: 'window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)', group: 'elementImage'}
     # 文章页面组件
     # 生效于 post.article 页面
     articlePage:
-      - {id: 'printMode', name: '打印页面', icon: 'fa-solid fa-print', event: 'printMode', group: 'articlePage'}
-      - {id: 'readMode', name: '阅读模式', icon: 'fa-solid fa-book-open', event: 'readMode', group: 'articlePage'}
+      - {id: 'printMode', name: '打印页面', icon: 'fa-duotone fa-print', event: 'printMode', group: 'articlePage'}
+      - {id: 'readMode', name: '阅读模式', icon: 'fa-duotone fa-book-open', event: 'readMode', group: 'articlePage'}
   # 右键自定义菜单区域
   menus:
     # link:
-    #   - {id: 'help', name: '常见问题', icon: 'fa-solid fa-question', link: 'https://volantis.js.org/faqs/', group: 'link'}
-    #   - {id: 'examples', name: '示例博客', icon: 'fa-solid fa-rss', link: 'https://volantis.js.org/examples/', group: 'link'}
-    #   - {id: 'contributors', name: '加入社区', icon: 'fa-solid fa-fan', link: 'https://volantis.js.org/contributors/', group: 'link'}
+    #   - {id: 'help', name: '常见问题', icon: 'fa-duotone fa-question', link: 'https://volantis.js.org/faqs/', group: 'link'}
+    #   - {id: 'examples', name: '示例博客', icon: 'fa-duotone fa-rss', link: 'https://volantis.js.org/examples/', group: 'link'}
+    #   - {id: 'contributors', name: '加入社区', icon: 'fa-duotone fa-fan', link: 'https://volantis.js.org/contributors/', group: 'link'}
     #   - hr
-    #   - {id: 'source_docs', name: '本站源码', icon: 'fa-solid fa-code-branch', link: 'https://github.com/volantis-x/volantis-docs/', group: 'link'}
-    #   - {id: 'source_theme', name: '主题源码', icon: 'fa-solid fa-code-branch', link: 'https://github.com/volantis-x/hexo-theme-volantis/', group: 'link'}
+    #   - {id: 'source_docs', name: '本站源码', icon: 'fa-duotone fa-code-branch', link: 'https://github.com/volantis-x/volantis-docs/', group: 'link'}
+    #   - {id: 'source_theme', name: '主题源码', icon: 'fa-duotone fa-code-branch', link: 'https://github.com/volantis-x/hexo-theme-volantis/', group: 'link'}
     darkMode:
-      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-solid fa-moon', event: 'volantis.dark.toggle()', group: 'darkMode'}
+      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-moon', event: 'volantis.dark.toggle()', group: 'darkMode'}
 ###
 
 # 自定义右键菜单
 rightmenu:
   enable: false
-  faicon: fa              # 公共图标类型 fa fal fa-solid fa-duotone
+  faicon: fa              # 公共图标类型 fa fal fa-duotone fa-duotone
   # hr: 分割线, music: 音乐控制器
   layout: [home, hr, help, examples, contributors, hr, source_docs, source_theme, hr, print, darkmode, reading, music]
   ### 可选功能项 ###
@@ -1141,10 +1153,10 @@ custom_css:
 ############################### Analytics ############################### > start
 analytics:
   busuanzi: #volantis-static/libs/busuanzi/js/busuanzi.pure.mini.js #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
-  leancloud: # 请使用自己的 id & key 以防止数据丢失
-    app_id: bgQRJJaG8LQ9lfkQB14l4NKQ-MdYXbMMI
-    app_key: CAbpulBGaFwyYKBYoRfWiLs2
-    custom_api_server: https://leancloud.honoka.tech # 国际版一般不需要写，除非自定义了 API Server
+  # leancloud: # 请使用自己的 id & key 以防止数据丢失
+  #   app_id: bgQRJJaG8LQ9lfkQB14l4NKQ-MdYXbMMI
+  #   app_key: CAbpulBGaFwyYKBYoRfWiLs2
+  #   custom_api_server: https://leancloud.honoka.tech # 国际版一般不需要写，除非自定义了 API Server
 ############################### Analytics ############################### > end
 
 ############################### SEO ############################### > start
