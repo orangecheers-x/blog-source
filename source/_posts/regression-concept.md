@@ -6,7 +6,7 @@ tags:
 
 ---
 
-![cover](/img/regression-concept.assets/cover.jpg.webp.webp)
+![cover](/img/regression-concept.assets/cover.jpg.webp)
 
 
 

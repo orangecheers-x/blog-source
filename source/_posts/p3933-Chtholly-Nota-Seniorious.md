@@ -22,7 +22,7 @@ tags:
 
 **世界一、幸せな女の子だ**
 
-![img](https://cdn.luogu.com.cn/upload/pic/9193.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/9193.png.webp)
 
 <!--more-->
 
@@ -36,13 +36,13 @@ tags:
 
 无数次计算得到的残酷数据表明，只有圣剑瑟尼欧尼斯的适格精灵——珂朵莉·诺塔·瑟尼欧尼斯(Chtholly Nota Seniorious)开启妖精乡之门，才可以以生命为代价守住浮游岛。
 
-![img](https://cdn.luogu.com.cn/upload/pic/9228.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/9228.png.webp)
 
 “至少，我也希望自己不用消失，也想让别人记住。我也想留下羁绊啊。”
 
 留给妖精少女珂朵莉的时间似乎已经不多了。
 
-![img](https://cdn.luogu.com.cn/upload/pic/9229.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/9229.png.webp)
 
 年轻的二等技官，妖精仓库的管理员，世界上最后一个人类——威廉·克梅**修**，数百年前曾经是一名准勇者，掌握着成为一名勇者所需要的所有知识。
 
@@ -82,7 +82,7 @@ tags:
 
 好心而可爱的在一旁默默观察奈芙莲悄悄地告诉你，极差就是区域内最大值减去最小值。
 
-![img](https://cdn.luogu.com.cn/upload/pic/9230.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/9230.png.webp)
 
 夜晚的风吹拂着，68号岛上的景色竟与地上的森林无异。转念又想，黄金妖精本身就是与森林之中出现，成长，消亡的神秘存在啊。
 
@@ -152,7 +152,7 @@ tags:
 
 《末日时在做什么？有没有空？可以来拯救吗？》
 
-![img](https://cdn.luogu.com.cn/upload/pic/9235.png.webp.webp)~~看题比看番刺激系列~~
+![img](https://cdn.luogu.com.cn/upload/pic/9235.png.webp)~~看题比看番刺激系列~~
 
 
 
@@ -178,15 +178,15 @@ tags:
 
 
 
-![img](https://cdn.luogu.com.cn/upload/pic/13249.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/13249.png.webp)
 
 这是一个不合法的情况,因为分割线在既背着第一列方向拐了又向着第一列方向拐了几次.
 
-![img](https://cdn.luogu.com.cn/upload/pic/13247.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/13247.png.webp)
 
 这是一个合法的情况,因为分割线从上到下看只向着第一列拐.
 
-![img](https://cdn.luogu.com.cn/upload/pic/13248.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/13248.png.webp)
 
 同样,旋转一下这条分割线也是合法的.
 
@@ -239,7 +239,7 @@ tags:
 
 考虑分割线的限制,再换一种说法:
 
-![img](https://cdn.luogu.com.cn/upload/pic/13247.png.webp.webp)
+![img](https://cdn.luogu.com.cn/upload/pic/13247.png.webp)
 
 **为了方便,现在只讨论形如这样的分割线,即从上到下只向着第一列方向拐弯或不拐弯**
 

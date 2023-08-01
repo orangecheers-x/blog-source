@@ -100,11 +100,11 @@ mutex_unlock(&mutex);
 
 进一步的, 我深入思考了这个想法, 发现用操作系统那个资源依赖图模型可以说出一些道理: 如果绘制一张图, 图里的每个节点都是一把锁, 那么每个线程的加锁顺序可以用一个这个图上的一组有向边表示. 比如, 两个线程以不同的顺序去加两把锁, 那么这个图就可以表示为:
 
-![IMG_E74CF893BDD5-1.jpeg](/img/sync/IMG_E74CF893BDD5-1.jpeg.webp.webp)
+![IMG_E74CF893BDD5-1.jpeg](/img/sync/IMG_E74CF893BDD5-1.jpeg.webp)
 
 我认为, 死锁可能发生的充分必要条件是这个图上存在一个环. 比如, 考虑下面的这样一个图:
 
-![IMG_4AAC5F1576FF-1.jpeg](/img/sync/IMG_4AAC5F1576FF-1.jpeg.webp.webp)
+![IMG_4AAC5F1576FF-1.jpeg](/img/sync/IMG_4AAC5F1576FF-1.jpeg.webp)
 
 三个线程分别按顺序锁住:
 
@@ -116,7 +116,7 @@ mutex_unlock(&mutex);
 
 如果在哲学家问题中, 让每个人先拿左手边的再拿右手边的, 那这五个锁就会形成一个环. 而我们要做的, 就是控制一些锁加锁的顺序, 让他们永远不可能成环. 比如, 在那个奇偶数的哲学家问题解决方法中, 如果把每个人右手边的叉子标号为这个人的编号, 那么这五个叉子的加锁顺序是这样的:
 
-![IMG_97DB4ED2C16F-1.jpeg](/img/sync/IMG_97DB4ED2C16F-1.jpeg.webp.webp)
+![IMG_97DB4ED2C16F-1.jpeg](/img/sync/IMG_97DB4ED2C16F-1.jpeg.webp)
 
 这是一个有向无环图, 在上面无论如何找不到一条成环的路径.
 

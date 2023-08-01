@@ -8,7 +8,7 @@ tags: 机器学习
 
 
 
-![img](/img/softmax-mnist.assets/NOH}OC[SA3A%@29ALI$PL5.png.webp.webp)
+![img](/img/softmax-mnist.assets/NOH}OC[SA3A%@29ALI$PL5.png.webp)
 
 求了两下午导, 调了半天代码, 终于验证了我寒假的想法, 自己用softmax回归(我也不知道这个叫什么)实现了MNIST手写数字识别. 
 
@@ -123,15 +123,15 @@ $$
 
 MNIST数据集谷歌一下就有了:
 
-![image-20210716000330267](/img/softmax-mnist.assets/image-20210716000330267.png.webp.webp)
+![image-20210716000330267](/img/softmax-mnist.assets/image-20210716000330267.png.webp)
 
 下下来之后是个二进制文件, 下面介绍了二进制文件的构造.
 
-![image-20210716000418636](/img/softmax-mnist.assets/image-20210716000418636.png.webp.webp)
+![image-20210716000418636](/img/softmax-mnist.assets/image-20210716000418636.png.webp)
 
 这是训练集输入, 从第16B开始, 每一个字节代表一个像素, 一张图有784个像素, 一共有60000个图.
 
-![image-20210716000503830](/img/softmax-mnist.assets/image-20210716000503830.png.webp.webp)
+![image-20210716000503830](/img/softmax-mnist.assets/image-20210716000503830.png.webp)
 
 这是训练集输出, 从第8B开始, 每一个字节代表一张图片的标签.
 
@@ -141,13 +141,13 @@ MNIST数据集谷歌一下就有了:
 
 把这个输入文件从第16B开始, 读取784B, 生成到一个ppm图片里.
 
-![2021-07-10](/img/softmax-mnist.assets/2021-07-10.png.webp.webp)
+![2021-07-10](/img/softmax-mnist.assets/2021-07-10.png.webp)
 
 我猜这是个5.
 
 然后按照输出的格式, 读取第8个字节.
 
-![2021-07-10-1](/img/softmax-mnist.assets/2021-07-10-1.png.webp.webp)
+![2021-07-10-1](/img/softmax-mnist.assets/2021-07-10-1.png.webp)
 
 果然是个5, 我眼真好使.
 
@@ -250,7 +250,7 @@ for i in range(10000):
 
 
 
-![2021-07-15-3](/img/softmax-mnist.assets/2021-07-15-3.png.webp.webp)
+![2021-07-15-3](/img/softmax-mnist.assets/2021-07-15-3.png.webp)
 
 
 
@@ -264,5 +264,5 @@ for i in range(10000):
 
 
 
-![img](/img/softmax-mnist.assets/4RBM1{TIEEXFDV72[2GK4FI.jpg.webp.webp)
+![img](/img/softmax-mnist.assets/4RBM1{TIEEXFDV72[2GK4FI.jpg.webp)
 

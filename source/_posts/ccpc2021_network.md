@@ -5,7 +5,7 @@ categories: 游记
 tags:
 ---
 
-![](/img/ccpc2021_network/cover.jpg.webp.webp)
+![](/img/ccpc2021_network/cover.jpg.webp)
 
 西电的网其实还行, 虽然也是一直打不开, 但是最起码我们的题目都交上去了, 听说有的学校5个小时就没打开过.
 
@@ -48,7 +48,7 @@ zirrtu给那个人打了十几个电话, 那个人终于接了, 然后特别凶�
 我坐在了第二排, 本来以为前面没人坐了, 一会王老师他们队坐我们前面了. 又要被气场压制了.
 
 还差5秒钟开局, 就遇到了经典问题:
-![](/img/ccpc2021_network/cover.jpg.webp.webp)
+![](/img/ccpc2021_network/cover.jpg.webp)
 
 不过西电的网还行, 刷了一会就刷出来了.
 
@@ -74,4 +74,4 @@ zirrtu给那个人打了十几个电话, 那个人终于接了, 然后特别凶�
 
 最近托rx的福, 在210搞了个工位, 每天有效学习时间指数级增长, 开始复健了, 马上就又有一堆比赛了, 还要学CV的东西.
 
-![](/img/ccpc2021_network/fufu.jpg.webp.webp)
+![](/img/ccpc2021_network/fufu.jpg.webp)

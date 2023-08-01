@@ -164,7 +164,7 @@ CSMA常用有三种策略:
 
 同样的, 以太网还是根据标准不同有两种MAC帧, 主要只看V2版本的.
 
-![image-20210620162503357](/img/Chapter11-15/image-20210620162503357.png.webp.webp)
+![image-20210620162503357](/img/Chapter11-15/image-20210620162503357.png.webp)
 
 1. 前导码, 8Bytes, 这个是物理层加进去的, 前7B叫前同步码, 最后一个Byte叫帧开始定界符. MAC帧是不需要结束符的, 因为每一个帧都有开始符.
 2. 目的地址, 源地址, 都是6Bytes.
@@ -240,7 +240,7 @@ A在发给B东西, 同时C也想给D发东西, 虽然A发的东西D接收不到,
 
 带有碰撞避免的CSMA.
 
-![image-20210620170337714](/img/Chapter11-15/image-20210620170337714.png.webp.webp)
+![image-20210620170337714](/img/Chapter11-15/image-20210620170337714.png.webp)
 
 CSMA/CA主要有三个东西: 
 
@@ -298,9 +298,9 @@ PCF的优先级要比DCF高.
 
 ## 寻址机制
 
-![image-20210620172128842](/img/Chapter11-15/image-20210620172128842.png.webp.webp)
+![image-20210620172128842](/img/Chapter11-15/image-20210620172128842.png.webp)
 
-![image-20210620172138820](/img/Chapter11-15/image-20210620172138820.png.webp.webp)
+![image-20210620172138820](/img/Chapter11-15/image-20210620172138820.png.webp)
 
 非常罕见的ppt说的我能听懂.
 
@@ -320,7 +320,7 @@ PCF的优先级要比DCF高.
 
 ### 无源集线器
 
-![image-20210620201714249](/img/Chapter11-15/image-20210620201714249.png.webp.webp)
+![image-20210620201714249](/img/Chapter11-15/image-20210620201714249.png.webp)
 
 就是直接连起来而已
 

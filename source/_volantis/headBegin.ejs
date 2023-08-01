@@ -12,3 +12,18 @@
   })(window, document, "script", "dataLayer", "GTM-NSGV5VH");
 </script>
 <!-- End Google Tag Manager -->
+
+<script type="module">
+  import { pageviewCount } from "https://unpkg.com/@waline/client/dist/pageview.mjs";
+
+  pageviewCount({
+    serverURL: "https://honoka.tech/waline/",
+    path: window.location.href,
+
+    // 可选的，用于自定选择器，默认为 `'.waline-pageview-count'`
+    // selector: 'waline-pageview-count',
+
+    // 可选的，是否在获取时增加访问量，默认为 `true`
+    // update: true,
+  });
+</script>

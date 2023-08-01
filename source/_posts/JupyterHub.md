@@ -24,7 +24,7 @@ sudo apt install net-tools
 
 安装成功后,在终端里使用ifconfig -a查看路由器分发的ip地址,在主机上使用ssh连接就可以搭建环境了.
 
-![](/img/JupyterHub/1.png.webp.webp)
+![](/img/JupyterHub/1.png.webp)
 
 ## 2. 安装Anaconda3
 
@@ -39,7 +39,7 @@ sh ./Anaconda3-2020.02-Linux-x86_64.sh
 
 顺便,这里我选择的是yes,我也不知道是干啥的.
 
-![](/img/JupyterHub/2.png.webp.webp)
+![](/img/JupyterHub/2.png.webp)
 
 执行
 
@@ -55,7 +55,7 @@ export PATH=~/anaconda3/bin:$PATH
 
 JupyterHub的官方文档(https://jupyterhub.readthedocs.io/en/stable/ )提供了两种安装方法:
 
-![](/img/JupyterHub/3.png.webp.webp)
+![](/img/JupyterHub/3.png.webp)
 
 这里选择第二种安装.注意如果使用第一种安装的话还需要先额外安装nodejs环境,官方给的命令是:
 
@@ -90,7 +90,7 @@ jupyterhub
 
 出现此界面,安装成功.
 
-![](/img/JupyterHub/4.png.webp.webp)
+![](/img/JupyterHub/4.png.webp)
 
 下面进行用户的配置.
 
@@ -108,11 +108,11 @@ jupyterhub --generate-config
 
 官方文档建议将此文件放在/etc/jupyterhub目录下.可以自行创建此文件夹后在该文件夹下执行命令.
 
-![](/img/JupyterHub/5.png.webp.webp)
+![](/img/JupyterHub/5.png.webp)
 
 此时出现了一个棘手的问题:
 
-![](/img/JupyterHub/6.png.webp.webp)
+![](/img/JupyterHub/6.png.webp)
 
 我们没有权限在这个文件夹下进行写文件的操作.
 
@@ -122,7 +122,7 @@ jupyterhub --generate-config
 sudo jupyterhub --generate-config
 ```
 
-![](/img/JupyterHub/7.png.webp.webp)
+![](/img/JupyterHub/7.png.webp)
 
 他提示没有找到jupyterhub这个命令.
 
@@ -134,7 +134,7 @@ sudo jupyterhub --generate-config
 
 如果你没有为root用户设置过密码,应该先使用`sudo passwd root`来给root设置密码,然后使用`su`来切换到root账户.
 
-![](/img/JupyterHub/8.png.webp.webp)
+![](/img/JupyterHub/8.png.webp)
 
 如果没有安装vim,使用apt安装即可.
 
@@ -175,7 +175,7 @@ sudo chmod 777 /etc/jupyterhub
 
 通过查阅官方文档,我们可以找到配置文件的基本配置.
 
-![](/img/JupyterHub/9.png.webp.webp)
+![](/img/JupyterHub/9.png.webp)
 
 按照官方文档的说法,默认的用户认证管理器是PAM,ubuntu系统上的用户都被允许登录.
 
@@ -189,7 +189,7 @@ adduser kasumi
 
 修改配置文件,将一个用户添加到管理员列表中(这里是honokasumi),另一个普通用户(这里是kasumi)添加到白名单中.(按照官方文档的说法,在管理员列表中的非白名单中的用户会被自动添加到白名单中):
 
-![](/img/JupyterHub/10.png.webp.webp)
+![](/img/JupyterHub/10.png.webp)
 
 指定配置文件,启动jupyter
 
@@ -199,11 +199,11 @@ sudo jupyterhub -f /etc/jupyterhub/jupyterhub_config.py
 
 访问http://ip:8000 ,输入账号密码,登录成功.
 
- ![](/img/JupyterHub/11.png.webp.webp)
+ ![](/img/JupyterHub/11.png.webp)
 
 ## 5.安装其他语言的内核
 
-![](/img/JupyterHub/12.png.webp.webp)
+![](/img/JupyterHub/12.png.webp)
 
 默认已经安装了Python3的内核,要想支持其他语言,需要安装其他语言的内核.
 
@@ -221,9 +221,9 @@ conda install xeus-cling -c conda-forge
 
 安装成功后,可以在这里切换使用内核:
 
-![](/img/JupyterHub/13.png.webp.webp)
+![](/img/JupyterHub/13.png.webp)
 
-![](/img/JupyterHub/14.png.webp.webp)
+![](/img/JupyterHub/14.png.webp)
 
 https://github.com/jupyter/jupyter/wiki/Jupyter-kernels 这里列出了jupyter上其他语言的内核,可以自己寻找并安装.
 
