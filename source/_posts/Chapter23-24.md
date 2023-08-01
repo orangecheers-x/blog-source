@@ -84,7 +84,7 @@ UDP的头只记录了源端口, 目的端口, 和数据的长度(包括头部).
 
 我服了, 这nm全要背.
 
-![image-20210622163103789](/img/Chapter23-24.assets/image-20210622163103789.png.webp)
+![image-20210622163103789](/img/Chapter23-24.assets/image-20210622163103789.png.webp.webp)
 
 1. 懒得解释了
 2. 懒得解释了

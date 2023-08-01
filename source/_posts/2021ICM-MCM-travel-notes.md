@@ -5,7 +5,7 @@ categories: 游记
 tags:
 ---
 
-![](/img/2021ICM-MCM-travel-notes/fm.png.webp)
+![](/img/2021ICM-MCM-travel-notes/fm.png.webp.webp)
 
 ## Day -∞ -- Day 0
 
@@ -29,23 +29,23 @@ tags:
 
 学校安排的数模训练很紧, 但是这是针对正式队的, 见习队可以选择参加. 我们想还是先学点东西再参加吧, 啥都不会也编不下去, 结果直到最后我们也没有完整的练过一个题(还是废物). 平时就一起跟301一起学数模, 听301里唯一有数模经验的99讲东西, 开了很多题最后都没做到第二问, 做了个阿片的题唯一收获就是别选C题(太废物了).
 
-![img](/img/2021ICM-MCM-travel-notes/a.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/a.png.webp.webp)
 
 还有一个奇怪的公告署名, 就很奇妙, 现在也不知道是什么情况.
 
-![img](/img/2021ICM-MCM-travel-notes/b.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/b.png.webp.webp)
 
 ## Day1
 
 五点多就都起了, 目标很明确, 直接开了D题. 我先花了四五十分钟把题目翻译了一遍, 不清楚的地方标了一下, 然后吃个早饭就开始建模之旅.
 
-![img](/img/2021ICM-MCM-travel-notes/QQ图片20210213114536.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/QQ图片20210213114536.png.webp.webp)
 
 题目是The Influence of Music, 挺巧的, 前一天跟301聊天时还说到除非出一个音游题要不然我肯定没输出, 看到这个题目我以为真的是音游, 然而实际上跟音游没啥关系.
 
 之前做特斯拉那题对找数据有了心理阴影, 看到这题说只允许使用题目给的数据集还是很开心的, 不用去找这么多奇怪的数据了. 第一问让建一个图, 不管用什么算法, 怎么建图他都说好了, 先把图建出来然后画一个图充个数. 这么大的图要画的话肯定要用gephi, 但是我不会(就纯废物), 就先让wwy画了一个图. 不知道他怎么调了色, 做出来是这个画风的:
 
-![img](/img/2021ICM-MCM-travel-notes/c.jpg.webp)
+![img](/img/2021ICM-MCM-travel-notes/c.jpg.webp.webp)
 
 先不管了, 我们三个先口胡出了第一题的模型, 然后一起商量了一些关键词的中英文名称, oxy就去写论文了, 因为是个缩点dp, wwy写了好长时间才出来, 大废物我感觉自己没什么事做, 就去画了几张图.
 
@@ -55,7 +55,7 @@ tags:
 
 晚饭之后我画出来了, 但是总觉得差点意思, 还是技术不够, 差不多得了.
 
-![img](/img/2021ICM-MCM-travel-notes/top7.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/top7.png.webp.webp)
 
 配色实在太丑了, 我已经不忍心看了.
 
@@ -93,7 +93,7 @@ tags:
 
 折腾了一上午, 大概把题目全部构思好了, 然后就剩吹论文了. 下午wwy去写了给ICM的Document, 我去写了一下模型的Weakness, 感觉全篇论文我最有自信写的就是这一块, 要不是写太多不是很好我能写十页.
 
-![img](/img/2021ICM-MCM-travel-notes/d.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/d.png.webp.webp)
 
 
 
@@ -121,8 +121,8 @@ tags:
 
 除夕, 晚上邦邦老师说要在大群里发一个红包, 我跟99守着零点抢红包但是她抢到了我没抢到, 我是废物.
 
-![img](/img/2021ICM-MCM-travel-notes/aa.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/aa.png.webp.webp)
 
-![img](/img/2021ICM-MCM-travel-notes/ab.png.webp)
+![img](/img/2021ICM-MCM-travel-notes/ab.png.webp.webp)
 
 数模好累, 如果还有下次一定要提前商量好论文咋写, 这次的最后一晚上太难顶了.

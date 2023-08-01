@@ -13,7 +13,7 @@ tags:
 
 # Chapter 19 逻辑寻址
 
-![image-20210620224317997](/img/Chapter19-22.assets/image-20210620224317997.png.webp)
+![image-20210620224317997](/img/Chapter19-22.assets/image-20210620224317997.png.webp.webp)
 
 哈哈, 全加粗了.
 
@@ -27,7 +27,7 @@ tags:
 
 ABCDE五类地址
 
-![image-20210620224445372](/img/Chapter19-22.assets/image-20210620224445372.png.webp)
+![image-20210620224445372](/img/Chapter19-22.assets/image-20210620224445372.png.webp.webp)
 
 重点在ABC类上.
 
@@ -173,7 +173,7 @@ IP地址化成两部分: **网络前缀; 主机号**
 
 
 
-![image-20210621184004060](/img/Chapter19-22.assets/image-20210621184004060.png.webp)
+![image-20210621184004060](/img/Chapter19-22.assets/image-20210621184004060.png.webp.webp)
 
 
 
@@ -224,11 +224,11 @@ More Frames: 指示后面是不是还有这一帧被分出来的续帧.
 
 ## IPv6数据报格式
 
-![image-20210621191854631](/img/Chapter19-22.assets/image-20210621191854631.png.webp)
+![image-20210621191854631](/img/Chapter19-22.assets/image-20210621191854631.png.webp.webp)
 
 好, 除了版本都不一样.
 
-![image-20210621192721966](/img/Chapter19-22.assets/image-20210621192721966.png.webp)
+![image-20210621192721966](/img/Chapter19-22.assets/image-20210621192721966.png.webp.webp)
 
 拓展首部是算在载荷里的.
 
@@ -248,7 +248,7 @@ More Frames: 指示后面是不是还有这一帧被分出来的续帧.
 
 8. 目的地址, 128bits.
 
-   ![image-20210621193900812](/img/Chapter19-22.assets/image-20210621193900812.png.webp)
+   ![image-20210621193900812](/img/Chapter19-22.assets/image-20210621193900812.png.webp.webp)
 
 ## IPv4和IPv6混合
 
@@ -284,7 +284,7 @@ More Frames: 指示后面是不是还有这一帧被分出来的续帧.
 
 ### 数据报格式
 
-![6-1911061F551c3](/img/Chapter19-22.assets/6-1911061F551c3.gif.webp)
+![6-1911061F551c3](/img/Chapter19-22.assets/6-1911061F551c3.gif.webp.webp)
 
 1. 硬件类型, 以太网都是1.
 2. 协议类型, IP协议都是0800H
@@ -340,7 +340,7 @@ ICMP的差错报文包括了ICMP头, 还有出错了的数据报的IP头, 和那
 
 **所以ICMP封装好的报文实际上有两个IP头, 一个是他应该有的IP头, 还有出错了的IP头**
 
-![image-20210622091632516](/img/Chapter19-22.assets/image-20210622091632516.png.webp)
+![image-20210622091632516](/img/Chapter19-22.assets/image-20210622091632516.png.webp.webp)
 
 ## IGMP
 

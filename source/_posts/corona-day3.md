@@ -24,5 +24,5 @@ tags:
 
 作为一个敬畏科学的人, 最后附一张布洛芬的合成路线图.
 
-![img](/img/corona-day3/ibuprofen.png.webp)
+![img](/img/corona-day3/ibuprofen.png.webp.webp)
 
