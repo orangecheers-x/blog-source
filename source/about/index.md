@@ -15,5 +15,3 @@ valine:
 
 Loveliver/邦邦人, 主推穂乃果和ksm. 
 
-脱单啦, 我女朋友 @ClaireEleanor99 最可爱啦.
-
