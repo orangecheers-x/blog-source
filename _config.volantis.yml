@@ -69,8 +69,8 @@ content_visibility: false
 replace:
   # - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
   # # - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
-  - https://cdn.jsdelivr.net/ => https://github.elemecdn.com/
-  - https://unpkg.com/ => https://github.elemecdn.com/
+  # - https://cdn.jsdelivr.net/ => https://github.elemecdn.com/
+  # - https://unpkg.com/ => https://github.elemecdn.com/
   - app-router.leancloud.cn => https://honoka.tech/counter
   - fa-solid => fa-duotone
 
