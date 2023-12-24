@@ -103,9 +103,9 @@ theme: volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "rsync"
-  host: azure
+  host: do
   user: blog
-  root: /var/www/html/
+  root: /var/www/blog/
 
 feed:
   type: atom
