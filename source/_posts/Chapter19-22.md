@@ -284,7 +284,7 @@ More Frames: 指示后面是不是还有这一帧被分出来的续帧.
 
 ### 数据报格式
 
-![6-1911061F551c3](/img/Chapter19-22.assets/6-1911061F551c3.gif.webp)
+![6-1911061F551c3](/img/Chapter19-22.assets/6-1911061F551c3.gif.webp.webp.webp.webp.webp)
 
 1. 硬件类型, 以太网都是1.
 2. 协议类型, IP协议都是0800H
