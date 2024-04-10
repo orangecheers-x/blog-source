@@ -19,6 +19,7 @@ for file in dirlist:
     if file.endswith(".md"):
         with open("./source/_posts/" + file, "r", encoding="utf-8") as f:
             content = f.read()
-        content = re.sub(r"!\[(.*)\]\((.*)\)", r"![\1](\2.webp)", content)
+        content = re.sub(r"!\[(.*)\]\((.*\.(jpg|png|jpeg))\)",
+                         r"![\1](\2.webp)", content)
         with open("./source/_posts/" + file, "w", encoding="utf-8") as f:
             f.write(content)
