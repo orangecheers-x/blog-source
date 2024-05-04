@@ -103,7 +103,7 @@ theme: volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "rsync"
-  host: do
+  host: aliyun
   user: blog
   root: /var/www/blog/
 
