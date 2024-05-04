@@ -2,47 +2,52 @@
   # description:  # 分组描述
   items:
     - title: RX # 名称
-      avatar: /img/friends/rx.jpg # 头像
+      avatar: /img/friends/rx.jpg.webp # 头像
       url: https://blog.woooo.tech # 链接
       screenshot: # 截图
       keywords: # 关键词
       description: RX神 # 描述
 
     - title: Zirrtu # 名称
-      avatar: /img/friends/zirrtu.jpg # 头像
+      avatar: /img/friends/zirrtu.jpg.webp # 头像
       url: http://www.zirrtu.xyz # 链接
       screenshot: # 截图
       keywords: # 关键词
       description: ACM神之队友 # 描述
 
     - title: luoq1an # 名称
-      avatar: /img/friends/luoq1an.jpg # 头像
+      avatar: /img/friends/luoq1an.jpg.webp # 头像
       url: https://luoq1an.github.io # 链接
       screenshot: # 截图
       keywords: # 关键词
       description: lq神 # 描述
 
     - title: Wings
-      avatar: /img/friends/wings.jpg
+      avatar: /img/friends/wings.jpg.webp
       url: https://blog.wingszeng.top
       description: 翼哥哥
 
     - title: 星空凛
-      avatar: /img/friends/mgg.png
+      avatar: /img/friends/mgg.png.webp
       url: https://miaoguoge.xyz
       description: 全栈星空凛
 
     - title: 北原春希
-      avatar: /img/friends/yanlc.jpg
+      avatar: /img/friends/yanlc.jpg.webp
       url: https://yanlc39.github.io
       description: haruki
 
     - title: latt1ce
-      avatar: /img/friends/latt1ce.jpg
+      avatar: /img/friends/latt1ce.jpg.webp
       url: https://lee-tc.github.io
       description: "0x1a771ce"
 
     - title: DX3906
-      avatar: /img/friends/dx3906.jpg
+      avatar: /img/friends/dx3906.jpg.webp
       url: https://blog.dx39061.top/
       description: 有ETO
+
+    - title: arttnba3
+      avatar: /img/friends/arttnba3.png.webp
+      url: https://arttnba3.cn
+      description: Kernel大神
