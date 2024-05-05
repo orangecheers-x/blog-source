@@ -6,6 +6,12 @@ cover: true
 sidebar: [announcement, blogger, category, webinfo, my_img]
 ---
 
+## 2024-05-05 02:49:45
+
+现在还是很简陋, 准备过段时间把评论也加进去.
+
+===
+
 ## 2024-05-05 02:12
 
 就像这样, 每一个推文都会有一个单独卡片, 按照时间倒序排列.
