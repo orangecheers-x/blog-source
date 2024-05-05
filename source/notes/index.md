@@ -3,7 +3,7 @@ layout: notepage
 seo_title: 果生随想
 index: true
 cover: true
-sidebar: [announcement, blogger, category, webinfo, my_img]
+sidebar: [announcement, blogger, category]
 ---
 
 ## 2024-05-05 02:49:45
