@@ -12,7 +12,7 @@ for root, dirs, files in dirlist:
             print(root / file)
             img = Image.open(root / file)
             img = img.convert("RGB")
-            img.save(root / (file + ".webp"), "webp", quality=70)
+            img.save(root / (file + ".webp"), "webp", quality=20)
 
 dirlist = os.listdir("./source/_posts")
 for file in dirlist:
