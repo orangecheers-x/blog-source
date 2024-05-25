@@ -17,14 +17,14 @@
   import { pageviewCount } from "https://unpkg.com/@waline/client@v2/dist/pageview.mjs";
   console.log("init!")
   pageviewCount({
-      serverURL: "https://honoka.tech/waline/",
+      serverURL: "https://blog.honoka.tech/waline/",
       // serverURL: "http://127.0.0.1:8360/",
       path: window.location.href,
     });
   document.addEventListener('pjax:complete', function () {
     console.log("count!")
     pageviewCount({
-      serverURL: "https://honoka.tech/waline/",
+      serverURL: "https://blog.honoka.tech/waline/",
       // serverURL: "http://127.0.0.1:8360/",
       path: window.location.href,
 

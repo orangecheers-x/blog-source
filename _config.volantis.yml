@@ -71,7 +71,7 @@ replace:
   # # - https://cdn.jsdelivr.net/gh/ => https://gcore.jsdelivr.net/gh/
   # - https://cdn.jsdelivr.net/ => https://github.elemecdn.com/
   # - https://unpkg.com/ => https://github.elemecdn.com/
-  - app-router.leancloud.cn => https://honoka.tech/counter
+  # - app-router.leancloud.cn => https://blog.honoka.tech/counter
   - fa-solid => fa-duotone
 
 
@@ -335,7 +335,7 @@ comments:
     css: https://github.elemecdn.com/@waline/client@v2/dist/waline.css
     path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是waline的问题
     placeholder: # 评论占位提示
-    serverURL: https://honoka.tech/waline/ # Waline 的服务端地址（必填） 测试用地址: https://waline.vercel.app
+    serverURL: https://blog.honoka.tech/waline/ # Waline 的服务端地址（必填） 测试用地址: https://waline.vercel.app
     imageUploader: false
       # # 以兰空图床为例，下列填写内容为：
       # # url: https://xxxxxx/api/v1/upload
@@ -536,7 +536,7 @@ site_footer:
 
   # analytics using leancloud
   analytics:
-    本站总访问量为 <span class="waline-pageview-count" data-path="https://honoka.tech/"><i class="fa-duotone fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次
+    本站总访问量为 <span class="waline-pageview-count" data-path="https://blog.honoka.tech/"><i class="fa-duotone fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次
   # site copyright
   copyright: 'Copyright © 2017-2023 Orange Cheers, All Rights Reserved.'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
