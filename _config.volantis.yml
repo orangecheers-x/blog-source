@@ -384,7 +384,9 @@ sidebar:
         icon: fa-duotone fa-bullhorn orange
         title: 公告
       content:
-        - '<p>本站原域名orangecheers.top将于半年内弃用, 之后将只保留honoka.tech域名.</p>'
+        - '<p>我已经不再持有原域名orangecheers.top.</p>'
+        - '<p>博客的地址也更新为blog.honoka.tech, 不再是根域名honoka.tech.</p>'
+        - '<p>目前根域名honoka.tech会返回301到blog.honoka.tech, 但是之后根域名可能会另作他用.</p>'
         - '<p>大家别忘更新一下友链!</p>'
     blogger:
       class: blogger
@@ -522,7 +524,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [analytics, copyright, slogan, beian]
+  layout: [copyright, slogan, beian]
   social:
     - icon: #fa-duotone fa-rss
       url:
