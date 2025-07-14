@@ -1,0 +1,4 @@
+:root {
+    --main-width: 780px; /* overrides default of 780px */
+    --figure-img-max-height: 500px
+}

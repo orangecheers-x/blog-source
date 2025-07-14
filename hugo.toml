@@ -1,0 +1,62 @@
+baseURL = 'https://blog.honoka.tech/'
+languageCode = 'zh-cn'
+title = 'Orange Cheers!'
+theme = 'typo'
+
+[params]
+# Meta description
+description = "Orange Cheers Blog"
+faviconPath = 'favicon.ico'
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+PhD Student@SYSU, MLSys.
+
+BSc in Computer Science, Xidian University.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 10
+listSummaries = false
+listDateFormat = '2 Jan 2006'
+
+showFooter = true
+footerContent = '''
+© 2017–2025 Orange Cheers. CC BY-NC-SA 4.0. 皖ICP备2023012140号
+'''
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[params.umami]
+enable = true
+websiteId = "4fd9a408-c96f-431a-8c1d-72af8287137d"
+jsLocation = "https://cloud.umami.is/script.js"
+
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
