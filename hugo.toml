@@ -19,6 +19,8 @@ homeIntroContent = """
 PhD Student@SYSU, MLSys.
 
 BSc in Computer Science, Xidian University.
+
+Contact me: orange_cheers@outlook.com
 """
 
 # Collection to display on home
@@ -48,7 +50,11 @@ url = "/"
 
 [[params.menu]]
 name = "posts"
-url = "/posts"
+url = "/posts/"
+
+[[params.menu]]
+name = "friends"
+url = "/friends/"
 
 [params.umami]
 enable = true
